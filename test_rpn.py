@@ -11,4 +11,4 @@ class TestBasics(unittest.TestCase):
 		result = rpn.calculate("3 2 ^")
 		self.assertEqual(9, result)
 		result = rpn.calculate("4 0 ^")
-		self.assertEqual(0, result)
+		self.assertEqual(1, result)
